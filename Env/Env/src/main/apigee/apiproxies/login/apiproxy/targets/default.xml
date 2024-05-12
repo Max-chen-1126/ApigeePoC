@@ -1,0 +1,5 @@
+<TargetEndpoint name="default">
+  <HTTPTargetConnection>
+    <URL>https://stage1-gke-tw.eupfin.com/Eup_Servlet_API_SOAP/login/session</URL>
+  </HTTPTargetConnection>
+</TargetEndpoint>

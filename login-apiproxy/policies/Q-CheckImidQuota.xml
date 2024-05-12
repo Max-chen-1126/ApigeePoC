@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota async="false" continueOnError="false" enabled="true" name="Q-CheckImidQuota">
+  <DisplayName>Q-CheckImidQuota</DisplayName>
+  <Allow countRef="verifyapikey.VA-CheckAPIKey.developer.Imid_login_session_quota" count="20"/>
+  <Interval>1</Interval>
+  <TimeUnit>hour</TimeUnit>
+  <Identifier ref="verifyapikey.VA-CheckAPIKey.developer.custImid"/>
+  <Distributed>true</Distributed>
+  <Synchronous>true</Synchronous>
+</Quota>
