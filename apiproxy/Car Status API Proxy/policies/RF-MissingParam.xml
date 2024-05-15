@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault continueOnError="false" enabled="true" name="RF-MissingParam">
+  <DisplayName>RF-MissingParam</DisplayName>
+  <Properties/>
+  <FaultResponse>
+    <Set>
+      <Headers/>
+      <Payload contentType="application/json">
+        {
+          "responseMsg":"Missing carNumber info",
+          "ErrorCode": "MissingParameter"
+        }
+      </Payload>
+      <StatusCode>400</StatusCode>
+      <ReasonPhrase>MissingParam</ReasonPhrase>
+    </Set>
+  </FaultResponse>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

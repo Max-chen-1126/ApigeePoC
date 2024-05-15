@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage continueOnError="false" enabled="true" name="AM-LookUpRateLimitHeader">
+  <DisplayName>AM-LookUpRateLimitHeader</DisplayName>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+  <AssignVariable>
+    <Name>iso8601Format</Name>
+    <Value>yyyy-MM-dd'T'HH:mm:ss'Z'</Value>
+  </AssignVariable>
+  <!-- because this policy gets attached to the response flow, it sets http headers in the response -->
+  <Set>
+    <Headers>
+      <!-- set the RateLimit header that complies with the IETF draft standard -->
+      <Header name="Imid-Ratelimit"> identifier={ratelimit.Q-CheckImidQuota.identifier},limit={ratelimit.Q-CheckImidQuota.allowed.count}, remaining={ratelimit.Q-CheckImidQuota.available.count} </Header>
+      <Header name="Id-Ratelimit"> identifier={ratelimit.Q-CheckIdQuota.identifier},limit={ratelimit.Q-CheckIdQuota.allowed.count}, remaining={ratelimit.Q-CheckIdQuota.available.count} </Header>
+      <!-- set a convenience header with the formatted reset time, for human interpretation, demo purposes  -->
+      <Header name="Imid-quota-reset">{timeFormatUTCMs(iso8601Format,ratelimit.Q-CheckImidQuota.expiry.time)}</Header>
+      <Header name="Imid-quota-reset">{timeFormatUTCMs(iso8601Format,ratelimit.Q-CheckIdQuota.expiry.time)}</Header>
+    </Headers>
+  </Set>
+</AssignMessage>

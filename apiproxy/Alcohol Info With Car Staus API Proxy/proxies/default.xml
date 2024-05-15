@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+  <Description/>
+  <FaultRules/>
+  <PreFlow name="PreFlow">
+    <Request>
+      <Step>
+        <Name>VA-VerifyAPIkey</Name>
+      </Step>
+    </Request>
+    <Response>
+    </Response>
+  </PreFlow>
+  <PostFlow name="PostFlow">
+    <Request>
+      <Step>
+        <Name>AM-CarStatusRequest</Name>
+      </Step>
+      <Step>
+        <Name>SC-CalloutCarStatus</Name>
+      </Step>
+      <Step>
+        <Name>AM-AlcoholInfoRequest</Name>
+      </Step>
+      <Step>
+        <Name>SC-CalloutAlcoholInfo</Name>
+      </Step>
+    </Request>
+    <Response>
+      <Step>
+        <Name>AM-RemoveHeaderAuth</Name>
+      </Step>
+      <Step>
+        <Name>JS-MergeResponse</Name>
+      </Step>
+    </Response>
+  </PostFlow>
+  <Flows/>
+  <HTTPProxyConnection>
+    <BasePath>/alcohol_info_with_carstatus</BasePath>
+    <Properties/>
+    <VirtualHost>default</VirtualHost>
+  </HTTPProxyConnection>
+  <RouteRule name="default"/>
+</ProxyEndpoint>

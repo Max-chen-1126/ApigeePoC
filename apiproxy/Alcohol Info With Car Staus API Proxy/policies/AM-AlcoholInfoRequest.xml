@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage continueOnError="false" enabled="true" name="AM-AlcoholInfoRequest">
+  <DisplayName>AM-AlcoholInfoRequest</DisplayName>
+  <Properties/>
+  <Set>
+    <Headers>
+      <Header name="Authorization">{request.header.Authorization}</Header>
+    </Headers>
+    <QueryParams>
+      <QueryParam name="apikey">{request.queryparam.apikey}</QueryParam>
+      <QueryParam name="start_time">{request.queryparam.start_time}</QueryParam>
+      <QueryParam name="end_time">{request.queryparam.end_time}</QueryParam>
+    </QueryParams>
+    <Verb>GET</Verb>
+    <Path>/car/{request.queryparam.carNumber}/alcohol_info</Path>
+  </Set>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+  <AssignTo createNew="true" transport="http" type="request">AlcoholInfoRequest</AssignTo>
+</AssignMessage>

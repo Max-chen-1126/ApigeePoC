@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout continueOnError="false" enabled="true" name="SC-CalloutAlcoholInfo">
+  <DisplayName>SC-CalloutAlcoholInfo</DisplayName>
+  <Request variable="AlcoholInfoRequest"/>
+  <Response>CalloutAlcoholInfoResponse</Response>
+  <HTTPTargetConnection>
+    <URL>https://34.36.113.19.nip.io/alcohol_info</URL>
+  </HTTPTargetConnection>
+</ServiceCallout>

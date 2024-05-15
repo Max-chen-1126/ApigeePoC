@@ -5,7 +5,7 @@
   <PreFlow name="PreFlow">
     <Request>
       <Step>
-        <Name>VA-CheckAPIKey</Name>
+        <Name>VA-VerifyAPIKey</Name>
       </Step>
       <Step>
         <Name>AM-RemoveAPIKey</Name>
@@ -18,19 +18,20 @@
       </Step>
     </Request>
     <Response>
-      <Step>
-        <Name>AM-LookUpRateLimitHeader</Name>
-      </Step>
     </Response>
   </PreFlow>
   <PostFlow name="PostFlow">
     <Request>
     </Request>
-    <Response/>
+    <Response>
+      <Step>
+        <Name>AM-LookUpRateLimitHeader</Name>
+      </Step>
+    </Response>
   </PostFlow>
   <Flows/>
   <HTTPProxyConnection>
-    <BasePath>/login/session</BasePath>
+    <BasePath>/car/log_data/car_status</BasePath>
     <Properties/>
     <VirtualHost>default</VirtualHost>
   </HTTPProxyConnection>

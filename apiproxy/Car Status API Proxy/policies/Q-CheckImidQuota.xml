@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota async="false" continueOnError="false" enabled="true" name="Q-CheckImidQuota">
+  <DisplayName>Q-CheckImidQuota</DisplayName>
+  <Allow countRef="verifyapikey.VA-VerifyAPIKey.developer.Imid_car_statu_quota" count="50"/>
+  <Interval>3</Interval>
+  <TimeUnit>hour</TimeUnit>
+  <Identifier ref="verifyapikey.VA-VerifyAPIKey.developer.custImid"/>
+  <Distributed>true</Distributed>
+  <Synchronous>true</Synchronous>
+</Quota>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="15" name="alcohol_info">
+  <DisplayName/>
+  <Description>Get Car Alcohol Info from Car Number</Description>
+  <CreatedAt>1715670142551</CreatedAt>
+  <LastModifiedAt>1715672569923</LastModifiedAt>
+  <BasePaths>/alcohol_info</BasePaths>
+  <Policies>
+    <Policy>AM-RemoveRequestPath</Policy>
+    <Policy>EV-ExtractCarNumber</Policy>
+    <Policy>VA-VerifyAPIKey</Policy>
+    <Policy>AM-RemoveAPIKey</Policy>
+    <Policy>Q-CheckIdQuota</Policy>
+    <Policy>Q-CheckImidQuota</Policy>
+    <Policy>AM-LookUpRateLimitHeader</Policy>
+    <Policy>JS-ChangeResultAndTime</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <Resources>
+    <Resource>jsc://ConvertResponseAndTime.js</Resource>
+  </Resources>
+  <TargetEndpoints>
+    <TargetEndpoint>default</TargetEndpoint>
+  </TargetEndpoints>
+</APIProxy>

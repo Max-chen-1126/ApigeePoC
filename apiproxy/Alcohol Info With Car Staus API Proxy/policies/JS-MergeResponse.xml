@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript continueOnError="false" enabled="true" timeLimit="200" name="JS-MergeResponse">
+  <DisplayName>JS-MergeResponse</DisplayName>
+  <Properties/>
+  <ResourceURL>jsc://MergeResponse.js</ResourceURL>
+</Javascript>

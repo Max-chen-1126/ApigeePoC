@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout continueOnError="false" enabled="true" name="SC-CalloutCarStatus">
+  <DisplayName>SC-CalloutCarStatus</DisplayName>
+  <Properties/>
+  <Request clearPayload="true" variable="CarStatusRequest">
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+  </Request>
+  <Response>CalloutCarStatusResponse</Response>
+  <LocalTargetConnection>
+    <APIProxy>car_status</APIProxy>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </LocalTargetConnection>
+</ServiceCallout>

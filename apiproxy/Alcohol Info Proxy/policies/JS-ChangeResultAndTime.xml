@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript continueOnError="false" enabled="true" timeLimit="200" name="JS-ChangeResultAndTime">
+  <DisplayName>JS-ChangeResultAndTime</DisplayName>
+  <Properties>
+    <Property name="responseVariable">response.content</Property>
+  </Properties>
+  <ResourceURL>jsc://ConvertResponseAndTime.js</ResourceURL>
+</Javascript>

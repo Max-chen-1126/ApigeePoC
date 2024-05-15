@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage continueOnError="false" enabled="true" name="AM-CarStatusRequest">
+  <DisplayName>AM-CarStatusRequest</DisplayName>
+  <Properties/>
+  <Set>
+    <Headers>
+      <Header name="Authorization">{request.header.Authorization}</Header>
+    </Headers>
+    <QueryParams>
+      <QueryParam name="apikey">{request.queryparam.apikey}</QueryParam>
+      <QueryParam name="carNumber">{request.queryparam.carNumber}</QueryParam>
+    </QueryParams>
+    <Verb>GET</Verb>
+    <Path/>
+  </Set>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+  <AssignTo createNew="true" transport="http" type="request">CarStatusRequest</AssignTo>
+</AssignMessage>
