@@ -1,0 +1,22 @@
+<APIProxy revision="24" name="alcohol_info_with_carstatus">
+    <DisplayName></DisplayName>
+    <Description>Merge API with Car Status and Alcohol Info</Description>
+    <CreatedAt>1715672883128</CreatedAt>
+    <LastModifiedAt>1715672883128</LastModifiedAt>
+    <BasePaths>/alcohol_info_with_carstatus</BasePaths>
+    <Policies>
+        <Policy>SC-CalloutCarStatus</Policy>
+        <Policy>AM-CarStatusRequest</Policy>
+        <Policy>AM-AlcoholInfoRequest</Policy>
+        <Policy>SC-CalloutAlcoholInfo</Policy>
+        <Policy>JS-MergeResponse</Policy>
+        <Policy>AM-RemoveHeaderAuth</Policy>
+        <Policy>VA-VerifyAPIkey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://MergeResponse.js</Resource>
+    </Resources>
+</APIProxy>

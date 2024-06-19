@@ -1,0 +1,19 @@
+{
+  "appId": "bb5b5a04-0fa8-4e15-95dc-66f0f05aadd1",
+  "attributes": [
+    {
+      "name": "Description",
+      "value": "Max App 2"
+    },
+    {
+      "name": "DisplayName",
+      "value": "Max App 2"
+    }
+  ],
+  "createdAt": "1715745443157",
+  "developerId": "418bfcd5-5f60-4502-974e-692c813da3b8",
+  "lastModifiedAt": "1715757560685",
+  "name": "Max App 2",
+  "status": "approved",
+  "appFamily": "default"
+}

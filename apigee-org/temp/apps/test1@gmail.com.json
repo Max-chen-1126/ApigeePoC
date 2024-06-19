@@ -1,0 +1,23 @@
+{
+  "test1@gmail.com": [
+    {
+      "appId": "ff7fb895-4dc1-43fc-ae8c-0a688ab03304",
+      "attributes": [
+        {
+          "name": "DisplayName",
+          "value": "Test1 App"
+        },
+        {
+          "name": "Notes",
+          "value": "App for Apigee Tester1"
+        }
+      ],
+      "createdAt": "1715485371949",
+      "developerId": "6d2d2de0-ef1e-48cb-9cb8-4fd5a13c3474",
+      "lastModifiedAt": "1715566696188",
+      "name": "apigee_test1_app",
+      "status": "approved",
+      "appFamily": "default"
+    }
+  ]
+}

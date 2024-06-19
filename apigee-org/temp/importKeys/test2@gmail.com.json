@@ -1,0 +1,18 @@
+{
+  "test2@gmail.com": [
+    {
+      "apiProducts": [
+        "Alcohol Info API",
+        "CarStatus",
+        "Login",
+        "Alcohol Info with Car Status API"
+      ],
+      "consumerKey": "yUAm4kMerP059qw1qlAtibiuGypO3bd3q2681RcGLUWLqSTJ",
+      "consumerSecret": "Q57Js8bRz33SJ0zSdWMbfhdRB1Ldzawb40tR6pm5GlNrH1d6hVuVcKhqzXES2rGa",
+      "expiresAt": "-1",
+      "issuedAt": "1715531269455",
+      "status": "approved",
+      "name": "TestApp2"
+    }
+  ]
+}

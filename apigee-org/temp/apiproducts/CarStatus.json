@@ -1,0 +1,41 @@
+{
+  "name": "CarStatus",
+  "displayName": "Car Status API",
+  "approvalType": "manual",
+  "attributes": [
+    {
+      "name": "access",
+      "value": "private"
+    }
+  ],
+  "description": "Get Car Current Status ",
+  "environments": [
+    "eval"
+  ],
+  "quota": "20",
+  "quotaInterval": "1",
+  "quotaTimeUnit": "minute",
+  "createdAt": "1715566223209",
+  "lastModifiedAt": "1715566223209",
+  "operationGroup": {
+    "operationConfigs": [
+      {
+        "apiSource": "car_status",
+        "operations": [
+          {
+            "resource": "/",
+            "methods": [
+              "GET"
+            ]
+          }
+        ],
+        "quota": {
+          "limit": "20",
+          "interval": "1",
+          "timeUnit": "minute"
+        }
+      }
+    ],
+    "operationConfigType": "proxy"
+  }
+}

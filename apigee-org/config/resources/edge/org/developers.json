@@ -1,0 +1,154 @@
+[
+  {
+    "email": "max.chen@hkmci.com",
+    "firstName": "Max",
+    "lastName": "Chen",
+    "userName": "max.chen@hkmci.com",
+    "attributes": [
+      {
+        "name": "Id_alcohol_info_quota",
+        "value": "100"
+      },
+      {
+        "name": "Id_car_statu_quota",
+        "value": "20"
+      },
+      {
+        "name": "Id_login_session_quota",
+        "value": "10"
+      },
+      {
+        "name": "Imid_car_statu_quota",
+        "value": "50"
+      },
+      {
+        "name": "Imid_login_session_quota",
+        "value": "20"
+      },
+      {
+        "name": "custId",
+        "value": "5043589"
+      },
+      {
+        "name": "custImid",
+        "value": "3343"
+      }
+    ],
+    "apps": [
+      "Max App"
+    ],
+    "developerId": "b8a44eb6-5620-451e-b38d-b1f64480b903",
+    "organizationName": "euppoc-apigee",
+    "status": "active",
+    "createdAt": "1715579363326",
+    "lastModifiedAt": "1715673699960"
+  },
+  {
+    "email": "maxwellchen1126@gmail.com",
+    "firstName": "Max",
+    "lastName": "Chen2",
+    "userName": "maxwellchen1126@gmail.com",
+    "attributes": [
+      {
+        "name": "Imid_car_status_quota",
+        "value": "50"
+      },
+      {
+        "name": "Imid_login_session_quota",
+        "value": "20"
+      },
+      {
+        "name": "custId",
+        "value": "5043588"
+      },
+      {
+        "name": "custImid",
+        "value": "3343"
+      }
+    ],
+    "apps": [
+      "Max App 2"
+    ],
+    "developerId": "418bfcd5-5f60-4502-974e-692c813da3b8",
+    "organizationName": "euppoc-apigee",
+    "status": "active",
+    "createdAt": "1715655810331",
+    "lastModifiedAt": "1715674076683"
+  },
+  {
+    "email": "test1@gmail.com",
+    "firstName": "Test",
+    "lastName": "1",
+    "userName": "apigee_test1",
+    "attributes": [
+      {
+        "name": "Imid_car_status_quota",
+        "value": "50"
+      },
+      {
+        "name": "Imid_login_session_quota",
+        "value": "20"
+      },
+      {
+        "name": "custId",
+        "value": "5043588"
+      },
+      {
+        "name": "custImid",
+        "value": "3343"
+      }
+    ],
+    "apps": [
+      "apigee_test1_app"
+    ],
+    "developerId": "6d2d2de0-ef1e-48cb-9cb8-4fd5a13c3474",
+    "organizationName": "euppoc-apigee",
+    "status": "active",
+    "createdAt": "1715484837472",
+    "lastModifiedAt": "1715531210298"
+  },
+  {
+    "email": "test2@gmail.com",
+    "firstName": "Test",
+    "lastName": "2",
+    "userName": "Test2",
+    "attributes": [
+      {
+        "name": "Id_alcohol_info_quota",
+        "value": "100"
+      },
+      {
+        "name": "Id_car_statu_quota",
+        "value": "20"
+      },
+      {
+        "name": "Id_login_session_quota",
+        "value": "10"
+      },
+      {
+        "name": "Imid_car_statu_quota",
+        "value": "50"
+      },
+      {
+        "name": "Imid_login_session_quota",
+        "value": "20"
+      },
+      {
+        "name": "custId",
+        "value": "5043589"
+      },
+      {
+        "name": "custImid",
+        "value": "3343"
+      }
+    ],
+    "apps": [
+      "TestApp2"
+    ],
+    "developerId": "536cea55-0bef-46f8-ab84-487405f81518",
+    "organizationName": "euppoc-apigee",
+    "status": "active",
+    "createdAt": "1715530835996",
+    "lastModifiedAt": "1715609438631"
+  }
+]

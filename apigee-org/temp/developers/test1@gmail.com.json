@@ -1,0 +1,32 @@
+{
+  "email": "test1@gmail.com",
+  "firstName": "Test",
+  "lastName": "1",
+  "userName": "apigee_test1",
+  "attributes": [
+    {
+      "name": "Imid_car_status_quota",
+      "value": "50"
+    },
+    {
+      "name": "Imid_login_session_quota",
+      "value": "20"
+    },
+    {
+      "name": "custId",
+      "value": "5043588"
+    },
+    {
+      "name": "custImid",
+      "value": "3343"
+    }
+  ],
+  "apps": [
+    "apigee_test1_app"
+  ],
+  "developerId": "6d2d2de0-ef1e-48cb-9cb8-4fd5a13c3474",
+  "organizationName": "euppoc-apigee",
+  "status": "active",
+  "createdAt": "1715484837472",
+  "lastModifiedAt": "1715531210298"
+}

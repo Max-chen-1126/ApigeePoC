@@ -1,0 +1,21 @@
+<APIProxy revision="30" name="car_status">
+    <DisplayName></DisplayName>
+    <Description>Car Status</Description>
+    <CreatedAt>1715766792454</CreatedAt>
+    <LastModifiedAt>1715766792454</LastModifiedAt>
+    <BasePaths>/car/log_data/car_status</BasePaths>
+    <Policies>
+        <Policy>RF-MissingParam</Policy>
+        <Policy>VA-VerifyAPIKey</Policy>
+        <Policy>AM-RemoveAPIKey</Policy>
+        <Policy>Q-CheckImidQuota</Policy>
+        <Policy>Q-CheckIdQuota</Policy>
+        <Policy>AM-LookUpRateLimitHeader</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

@@ -1,0 +1,4 @@
+{
+  "flowHookPoint": "PreProxyFlowHook",
+  "continueOnError": true
+}

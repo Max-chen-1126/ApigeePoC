@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage continueOnError="false" enabled="true" name="AM-RemoveRequestPath">
+  <DisplayName>AM-RemoveRequestPath</DisplayName>
+  <AssignVariable>
+    <Name>request.path</Name>
+    <Template>/car/{carNumber}/alcohol_info</Template>
+  </AssignVariable>
+  <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

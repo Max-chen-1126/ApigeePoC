@@ -1,0 +1,4 @@
+{
+  "flowHookPoint": "PreTargetFlowHook",
+  "continueOnError": true
+}

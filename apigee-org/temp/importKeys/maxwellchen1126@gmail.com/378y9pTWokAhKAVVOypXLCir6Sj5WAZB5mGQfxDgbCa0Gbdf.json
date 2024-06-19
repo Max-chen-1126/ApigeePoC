@@ -1,0 +1,12 @@
+{
+  "apiProducts": [
+    "CarStatus",
+    "Login"
+  ],
+  "consumerKey": "378y9pTWokAhKAVVOypXLCir6Sj5WAZB5mGQfxDgbCa0Gbdf",
+  "consumerSecret": "SpqXjqGwUp2BLjU8KxPiBPNanFpXq0GUO9QmY2G5FAVwokeNORc32QlUOp3CMN99",
+  "expiresAt": "-1",
+  "issuedAt": "1715745443200",
+  "status": "approved",
+  "name": "Max App 2"
+}

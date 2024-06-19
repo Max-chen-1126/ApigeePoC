@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota async="false" continueOnError="false" enabled="true" name="Q-CheckImidQuota">
+  <DisplayName>Q-CheckImidQuota</DisplayName>
+  <Allow countRef="verifyapikey.VA-VerifyAPIKey.developer.Imid_alcohol_info_quota" count="500"/>
+  <Interval>1</Interval>
+  <TimeUnit>hour</TimeUnit>
+  <Identifier ref="verifyapikey.VA-VerifyAPIKey.developer.custImid"/>
+  <Distributed>true</Distributed>
+  <Synchronous>true</Synchronous>
+</Quota>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout continueOnError="false" enabled="true" name="SC-CalloutAlcoholInfo">
+  <DisplayName>SC-CalloutAlcoholInfo</DisplayName>
+  <Request variable="AlcoholInfoRequest"/>
+  <Response>CalloutAlcoholInfoResponse</Response>
+  <LocalTargetConnection>
+    <APIProxy>alcohol_info</APIProxy>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </LocalTargetConnection>
+</ServiceCallout>

@@ -1,0 +1,4 @@
+{
+  "flowHookPoint": "PostTargetFlowHook",
+  "continueOnError": true
+}

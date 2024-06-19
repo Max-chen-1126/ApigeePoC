@@ -1,0 +1,16 @@
+{
+  "test1@gmail.com": [
+    {
+      "apiProducts": [
+        "CarStatus",
+        "Login"
+      ],
+      "consumerKey": "FVJZvbyXFWGWrAxStF3voG2XR7zFDrS7KQAFhcSsjSkVITHk",
+      "consumerSecret": "H6kvYSIqKFnWJ03UixzP2GNplxzP5IGTjHF43Z31zpoOUo3b2wRSJqnvMQRfD82k",
+      "expiresAt": "-1",
+      "issuedAt": "1715485372038",
+      "status": "approved",
+      "name": "apigee_test1_app"
+    }
+  ]
+}

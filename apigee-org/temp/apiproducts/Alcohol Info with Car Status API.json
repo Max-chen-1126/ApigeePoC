@@ -1,0 +1,34 @@
+{
+  "name": "Alcohol Info with Car Status API",
+  "displayName": "Alcohol Info with Car Status API",
+  "approvalType": "manual",
+  "attributes": [
+    {
+      "name": "access",
+      "value": "private"
+    }
+  ],
+  "description": "Combine the Alcohol Info with Car Status ",
+  "environments": [
+    "eval"
+  ],
+  "createdAt": "1715672055924",
+  "lastModifiedAt": "1715672055924",
+  "operationGroup": {
+    "operationConfigs": [
+      {
+        "apiSource": "alcohol_info_with_carstatus",
+        "operations": [
+          {
+            "resource": "/",
+            "methods": [
+              "GET"
+            ]
+          }
+        ],
+        "quota": {}
+      }
+    ],
+    "operationConfigType": "proxy"
+  }
+}

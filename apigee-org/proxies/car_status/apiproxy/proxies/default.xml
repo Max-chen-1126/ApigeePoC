@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+  <Description/>
+  <FaultRules/>
+  <PreFlow name="PreFlow">
+    <Request>
+      <Step>
+        <Name>VA-VerifyAPIKey</Name>
+      </Step>
+      <Step>
+        <Name>AM-RemoveAPIKey</Name>
+      </Step>
+      <Step>
+        <Name>Q-CheckImidQuota</Name>
+      </Step>
+      <Step>
+        <Name>Q-CheckIdQuota</Name>
+      </Step>
+    </Request>
+    <Response>
+    </Response>
+  </PreFlow>
+  <PostFlow name="PostFlow">
+    <Request>
+    </Request>
+    <Response>
+      <Step>
+        <Name>AM-LookUpRateLimitHeader</Name>
+      </Step>
+    </Response>
+  </PostFlow>
+  <Flows/>
+  <HTTPProxyConnection>
+    <BasePath>/car/log_data/car_status</BasePath>
+    <Properties/>
+    <VirtualHost>default</VirtualHost>
+  </HTTPProxyConnection>
+  <RouteRule name="default">
+    <TargetEndpoint>default</TargetEndpoint>
+  </RouteRule>
+</ProxyEndpoint>

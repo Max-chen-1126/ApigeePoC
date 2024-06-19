@@ -1,0 +1,18 @@
+{
+  "max.chen@hkmci.com": [
+    {
+      "apiProducts": [
+        "Alcohol Info API",
+        "CarStatus",
+        "Login",
+        "Alcohol Info with Car Status API"
+      ],
+      "consumerKey": "3Am3S2uYvv8uNbaeTYDk3EW3Joa5SJI4HqQiHY2FKc5GLWnx",
+      "consumerSecret": "ANS4KCqYJoHJSwisuzHjAb4wK8ANagHaoYAjvrQLu3g4lwAmAjGqqA6q9IzEpKsz",
+      "expiresAt": "-1",
+      "issuedAt": "1715655174337",
+      "status": "approved",
+      "name": "Max App"
+    }
+  ]
+}

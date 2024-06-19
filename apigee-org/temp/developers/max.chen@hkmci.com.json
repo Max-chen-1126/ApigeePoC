@@ -1,0 +1,44 @@
+{
+  "email": "max.chen@hkmci.com",
+  "firstName": "Max",
+  "lastName": "Chen",
+  "userName": "max.chen@hkmci.com",
+  "attributes": [
+    {
+      "name": "Id_alcohol_info_quota",
+      "value": "100"
+    },
+    {
+      "name": "Id_car_statu_quota",
+      "value": "20"
+    },
+    {
+      "name": "Id_login_session_quota",
+      "value": "10"
+    },
+    {
+      "name": "Imid_car_statu_quota",
+      "value": "50"
+    },
+    {
+      "name": "Imid_login_session_quota",
+      "value": "20"
+    },
+    {
+      "name": "custId",
+      "value": "5043589"
+    },
+    {
+      "name": "custImid",
+      "value": "3343"
+    }
+  ],
+  "apps": [
+    "Max App"
+  ],
+  "developerId": "b8a44eb6-5620-451e-b38d-b1f64480b903",
+  "organizationName": "euppoc-apigee",
+  "status": "active",
+  "createdAt": "1715579363326",
+  "lastModifiedAt": "1715673699960"
+}

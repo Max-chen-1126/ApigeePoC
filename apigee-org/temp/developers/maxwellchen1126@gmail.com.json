@@ -1,0 +1,32 @@
+{
+  "email": "maxwellchen1126@gmail.com",
+  "firstName": "Max",
+  "lastName": "Chen2",
+  "userName": "maxwellchen1126@gmail.com",
+  "attributes": [
+    {
+      "name": "Imid_car_status_quota",
+      "value": "50"
+    },
+    {
+      "name": "Imid_login_session_quota",
+      "value": "20"
+    },
+    {
+      "name": "custId",
+      "value": "5043588"
+    },
+    {
+      "name": "custImid",
+      "value": "3343"
+    }
+  ],
+  "apps": [
+    "Max App 2"
+  ],
+  "developerId": "418bfcd5-5f60-4502-974e-692c813da3b8",
+  "organizationName": "euppoc-apigee",
+  "status": "active",
+  "createdAt": "1715655810331",
+  "lastModifiedAt": "1715674076683"
+}

@@ -1,0 +1,20 @@
+<APIProxy revision="22" name="login">
+    <DisplayName></DisplayName>
+    <Description>Login</Description>
+    <CreatedAt>1715671256665</CreatedAt>
+    <LastModifiedAt>1715671256665</LastModifiedAt>
+    <BasePaths>/login/session</BasePaths>
+    <Policies>
+        <Policy>VA-CheckAPIKey</Policy>
+        <Policy>AM-RemoveAPIKey</Policy>
+        <Policy>Q-CheckImidQuota</Policy>
+        <Policy>AM-LookUpRateLimitHeader</Policy>
+        <Policy>Q-CheckIdQuota</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

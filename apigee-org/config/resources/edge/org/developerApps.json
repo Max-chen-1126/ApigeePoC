@@ -1,0 +1,86 @@
+{
+  "max.chen@hkmci.com": [
+    {
+      "appId": "90f8149a-0e0b-427f-b728-57a36fb83ee7",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Max"
+        },
+        {
+          "name": "DisplayName",
+          "value": "Max App"
+        }
+      ],
+      "createdAt": "1715655174281",
+      "developerId": "b8a44eb6-5620-451e-b38d-b1f64480b903",
+      "lastModifiedAt": "1715841544599",
+      "name": "Max App",
+      "status": "approved",
+      "appFamily": "default"
+    }
+  ],
+  "maxwellchen1126@gmail.com": [
+    {
+      "appId": "bb5b5a04-0fa8-4e15-95dc-66f0f05aadd1",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Max App 2"
+        },
+        {
+          "name": "DisplayName",
+          "value": "Max App 2"
+        }
+      ],
+      "createdAt": "1715745443157",
+      "developerId": "418bfcd5-5f60-4502-974e-692c813da3b8",
+      "lastModifiedAt": "1715757560685",
+      "name": "Max App 2",
+      "status": "approved",
+      "appFamily": "default"
+    }
+  ],
+  "test1@gmail.com": [
+    {
+      "appId": "ff7fb895-4dc1-43fc-ae8c-0a688ab03304",
+      "attributes": [
+        {
+          "name": "DisplayName",
+          "value": "Test1 App"
+        },
+        {
+          "name": "Notes",
+          "value": "App for Apigee Tester1"
+        }
+      ],
+      "createdAt": "1715485371949",
+      "developerId": "6d2d2de0-ef1e-48cb-9cb8-4fd5a13c3474",
+      "lastModifiedAt": "1715566696188",
+      "name": "apigee_test1_app",
+      "status": "approved",
+      "appFamily": "default"
+    }
+  ],
+  "test2@gmail.com": [
+    {
+      "appId": "e8a6e347-908b-49ce-806c-1765efd6cddb",
+      "attributes": [
+        {
+          "name": "DisplayName",
+          "value": "TestApp2"
+        },
+        {
+          "name": "Notes",
+          "value": "Test App For Tester 2"
+        }
+      ],
+      "createdAt": "1715531269398",
+      "developerId": "536cea55-0bef-46f8-ab84-487405f81518",
+      "lastModifiedAt": "1715672107698",
+      "name": "TestApp2",
+      "status": "approved",
+      "appFamily": "default"
+    }
+  ]
+}

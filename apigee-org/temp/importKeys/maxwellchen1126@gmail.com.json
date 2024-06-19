@@ -1,0 +1,28 @@
+{
+  "maxwellchen1126@gmail.com": [
+    {
+      "apiProducts": [
+        "CarStatus",
+        "Login"
+      ],
+      "consumerKey": "378y9pTWokAhKAVVOypXLCir6Sj5WAZB5mGQfxDgbCa0Gbdf",
+      "consumerSecret": "SpqXjqGwUp2BLjU8KxPiBPNanFpXq0GUO9QmY2G5FAVwokeNORc32QlUOp3CMN99",
+      "expiresAt": "-1",
+      "issuedAt": "1715745443200",
+      "status": "approved",
+      "name": "Max App 2"
+    },
+    {
+      "apiProducts": [
+        "CarStatus",
+        "Login"
+      ],
+      "consumerKey": "YZvHbymzs3f0oLmVZ0gR33m42epj3P0z",
+      "consumerSecret": "DLtUtot7rLiyU0of",
+      "expiresAt": "-1",
+      "issuedAt": "1715775703675",
+      "status": "revoked",
+      "name": "Max App 2"
+    }
+  ]
+}

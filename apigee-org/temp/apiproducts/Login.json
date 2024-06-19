@@ -1,0 +1,41 @@
+{
+  "name": "Login",
+  "displayName": "Login API",
+  "approvalType": "manual",
+  "attributes": [
+    {
+      "name": "access",
+      "value": "private"
+    }
+  ],
+  "description": "Help with Login to Get JWT Token",
+  "environments": [
+    "eval"
+  ],
+  "quota": "20",
+  "quotaInterval": "1",
+  "quotaTimeUnit": "minute",
+  "createdAt": "1715484757830",
+  "lastModifiedAt": "1715579725716",
+  "operationGroup": {
+    "operationConfigs": [
+      {
+        "apiSource": "login",
+        "operations": [
+          {
+            "resource": "/",
+            "methods": [
+              "POST"
+            ]
+          }
+        ],
+        "quota": {
+          "limit": "10",
+          "interval": "1",
+          "timeUnit": "minute"
+        }
+      }
+    ],
+    "operationConfigType": "proxy"
+  }
+}

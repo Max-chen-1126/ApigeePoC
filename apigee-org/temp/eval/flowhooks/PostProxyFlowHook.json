@@ -1,0 +1,4 @@
+{
+  "flowHookPoint": "PostProxyFlowHook",
+  "continueOnError": true
+}

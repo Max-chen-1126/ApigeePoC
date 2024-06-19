@@ -1,0 +1,44 @@
+{
+  "email": "test2@gmail.com",
+  "firstName": "Test",
+  "lastName": "2",
+  "userName": "Test2",
+  "attributes": [
+    {
+      "name": "Id_alcohol_info_quota",
+      "value": "100"
+    },
+    {
+      "name": "Id_car_statu_quota",
+      "value": "20"
+    },
+    {
+      "name": "Id_login_session_quota",
+      "value": "10"
+    },
+    {
+      "name": "Imid_car_statu_quota",
+      "value": "50"
+    },
+    {
+      "name": "Imid_login_session_quota",
+      "value": "20"
+    },
+    {
+      "name": "custId",
+      "value": "5043589"
+    },
+    {
+      "name": "custImid",
+      "value": "3343"
+    }
+  ],
+  "apps": [
+    "TestApp2"
+  ],
+  "developerId": "536cea55-0bef-46f8-ab84-487405f81518",
+  "organizationName": "euppoc-apigee",
+  "status": "active",
+  "createdAt": "1715530835996",
+  "lastModifiedAt": "1715609438631"
+}

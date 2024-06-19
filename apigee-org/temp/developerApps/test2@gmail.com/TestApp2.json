@@ -1,0 +1,19 @@
+{
+  "appId": "e8a6e347-908b-49ce-806c-1765efd6cddb",
+  "attributes": [
+    {
+      "name": "DisplayName",
+      "value": "TestApp2"
+    },
+    {
+      "name": "Notes",
+      "value": "Test App For Tester 2"
+    }
+  ],
+  "createdAt": "1715531269398",
+  "developerId": "536cea55-0bef-46f8-ab84-487405f81518",
+  "lastModifiedAt": "1715672107698",
+  "name": "TestApp2",
+  "status": "approved",
+  "appFamily": "default"
+}
